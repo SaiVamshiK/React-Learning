@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const str = "Hello world!!!";
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {str}
+          {console.log("We can write JS code in jsx using {} braces and they must be one line JS code only")}
         </p>
         <a
           className="App-link"
